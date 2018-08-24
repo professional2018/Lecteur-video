@@ -15,8 +15,8 @@ class Chanson{
     private var _titre : String
     private var _code : String
     private var _baseUrlVideo = "https://www.youtube.com/embed/"
-    private var _baseUrlMiniature = "https://www.youtube.com/embed/"
-    private var _finUrlMiniature = "https://www.youtube.com/embed/"
+    private var _baseUrlMiniature = "http://i.ytimg.com/vi/"
+    private var _finUrlMiniature = "/maxresdefault.jpg"
     
     var artiste: String{
         return _artiste
