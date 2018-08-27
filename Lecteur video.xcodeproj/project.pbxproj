@@ -13,6 +13,7 @@
 		EC410163212EA0F200A81900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC410161212EA0F200A81900 /* LaunchScreen.storyboard */; };
 		EC41016B212EB3A900A81900 /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41016A212EB3A900A81900 /* TableauController.swift */; };
 		EC679482212FF4B200CA7845 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC679481212FF4B200CA7845 /* ChansonCell.swift */; };
+		EC6794842130491D00CA7845 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6794832130491D00CA7845 /* VideoController.swift */; };
 		ECD7150C212EDAF400C38470 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7150B212EDAF400C38470 /* Chanson.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		EC410164212EA0F200A81900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC41016A212EB3A900A81900 /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
 		EC679481212FF4B200CA7845 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
+		EC6794832130491D00CA7845 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		ECD7150B212EDAF400C38470 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				EC41016A212EB3A900A81900 /* TableauController.swift */,
 				ECD7150B212EDAF400C38470 /* Chanson.swift */,
 				EC679481212FF4B200CA7845 /* ChansonCell.swift */,
+				EC6794832130491D00CA7845 /* VideoController.swift */,
 			);
 			path = "Lecteur video";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6794842130491D00CA7845 /* VideoController.swift in Sources */,
 				EC41016B212EB3A900A81900 /* TableauController.swift in Sources */,
 				EC410159212EA0F000A81900 /* AppDelegate.swift in Sources */,
 				EC679482212FF4B200CA7845 /* ChansonCell.swift in Sources */,
